@@ -1,0 +1,41 @@
+{
+ "as_of": "2026-11-14",
+ "mode": "report-only",
+ "actions": [
+  {
+   "action": "pause_ad",
+   "status": "proposed",
+   "ad_id": "a3",
+   "name": "Stock photo",
+   "reason": "CPA 121 is above 3x target (90) over 15 purchases",
+   "spend": 1813.7,
+   "purchases": 15
+  },
+  {
+   "action": "pause_ad",
+   "status": "proposed",
+   "ad_id": "a4",
+   "name": "Generic offer",
+   "reason": "spent 424 with no purchase (limit 2x target CPA = 60)",
+   "spend": 423.56,
+   "purchases": 0
+  },
+  {
+   "action": "raise_budget",
+   "status": "proposed",
+   "adset": "s3",
+   "from": 250.0,
+   "to": 300.0,
+   "reason": "CPA under target (30) for 3 days in a row, average 21.3"
+  },
+  {
+   "action": "draft_variants",
+   "status": "proposed",
+   "from_ad": "a6",
+   "name": "UGC review",
+   "count": 3,
+   "create_paused": true,
+   "reason": "lowest CPA (18.4) over 30 purchases. Vary hook, first frame and call to action. This is a request, not a creative."
+  }
+ ]
+}

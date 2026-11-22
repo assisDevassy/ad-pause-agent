@@ -1,0 +1,12 @@
+{
+  "target_cpa": 30.0,
+  "window_days": 7,
+  "min_days_live": 3,
+  "pause_cpa_multiple": 3.0,
+  "pause_min_purchases": 10,
+  "pause_zero_purchase_spend_multiple": 2.0,
+  "budget_raise_pct": 20,
+  "budget_raise_streak_days": 3,
+  "daily_spend_cap": 1000.0,
+  "draft_variants": 3
+}
